@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #194342;
+  --color-secondary: #3F5D3E;
+  --color-light-green: #DBE7C1;
+  --color-pastel-blue: #BFD7EA;
+  --color-navy: #17324D;
+  --color-warm-bg: #FAF8F3;
+  --color-main-text: #1F2933;
+  --color-muted: #667085;
+  --color-terracotta: #B86F5B;
+  --color-terracotta-dark: #A45F4D;
+
+  --font-sans: 'Vazirmatn', sans-serif;
+  --radius: 18px;
+}
+
+* {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+html {
+  direction: rtl;
+  background-color: #FAF8F3;
+}
+
+body {
+  color: #1F2933;
+  background-color: #FAF8F3;
+}
+
+/* Hide scrollbar by default */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+:hover::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DBE7C1;
+  border-radius: 4px;
+}

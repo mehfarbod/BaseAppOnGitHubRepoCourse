@@ -1,0 +1,10 @@
+{
+  "description": "This platform streamlines school management by connecting students, teachers, and parents, enhancing communication and improving educational outcomes.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
